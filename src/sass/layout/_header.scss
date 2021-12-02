@@ -1,0 +1,14 @@
+.page-header {
+  min-height: 690px;
+  padding: 10px;
+
+  background-image: url(/images/background-images/mobile-header@1x.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
+  background-color: black;
+  // @media screen and(min-width:376px) {
+  //   background-size: cover;
+  // }
+}

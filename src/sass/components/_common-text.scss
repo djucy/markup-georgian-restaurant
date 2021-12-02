@@ -1,0 +1,27 @@
+.describe-text {
+  margin-bottom: 60px;
+
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+
+  color: #ffffff;
+
+  &__menu {
+    margin-bottom: 30px;
+  }
+}
+
+.informaition-text {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+
+  color: #ffffff;
+}

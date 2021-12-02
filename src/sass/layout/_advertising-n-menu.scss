@@ -1,0 +1,129 @@
+.advertising-n-menu {
+  padding-top: 50px;
+
+  background-color: black;
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url(/images/background-images/white-talcume-powder-explosion-black-top@1x.jpg);
+  background-repeat: no-repeat;
+  // background-size: cover;
+  background-position: center;
+}
+
+//-- Advertising container--
+//-----------------------------
+.advertising-list {
+  width: 287px;
+  margin: 0px auto 60px;
+}
+
+.advertising-item {
+  &:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
+.advertising-pic {
+  display: block;
+  margin-bottom: 40px;
+}
+
+// ---------------------Menu container---------------------
+
+.menu-pic {
+  background-color: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)
+  );
+}
+.menu-item {
+  height: 300px;
+  &__appetizer {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0)
+      ),
+      url(/images/menu/appetizer/georgian-cheese-plate@1x.jpg);
+    &:hover {
+      background-image: linear-gradient(
+          0deg,
+          rgba(0, 0, 0, 0),
+          rgba(0, 0, 0, 0)
+        ),
+        url(/images/menu/appetizer/georgian-cheese-plate@1x.jpg);
+    }
+  }
+}
+.menu-item__salads {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(/images/menu/salads/salad@1x.jpg);
+  &:hover {
+    background-image: url(/images/menu/salads/salad@1x.jpg);
+  }
+}
+.menu-item__baking {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(/images/menu/baking/khachapuri-adjarian-open@1x.jpg);
+  &:hover {
+    background-image: url(/images/menu/baking/khachapuri-adjarian-open@1x.jpg);
+  }
+}
+.menu-item__soups {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    linear-gradient(180deg, rgba(0, 0, 0, 0) 77.56%, rgba(0, 0, 0, 0.6) 91.19%),
+    url(/images/menu/soups/kharcho-soup@1x.jpg);
+  &:hover {
+    background-image: url(/images/menu/soups/kharcho-soup@1x.jpg);
+  }
+}
+.menu-item__grill {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(/images/menu/charcoal-grilled-dishes/lula-kebab@1x.jpg);
+  &:hover {
+    background-image: url(/images/menu/charcoal-grilled-dishes/lula-kebab@1x.jpg);
+  }
+}
+.menu-item__hot-dishes {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(/images/menu/hot-dishes/dolma-stuffed-grape-leaves@1x.jpg);
+
+  &:hover {
+    background-image: url(/images/menu/hot-dishes/dolma-stuffed-grape-leaves@1x.jpg);
+  }
+}
+.menu-item__sauces {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(/images/menu/sauces/three-glass-bottles@1x.jpg);
+  &:hover {
+    background-image: url(/images/menu/sauces/three-glass-bottles@1x.jpg);
+  }
+}

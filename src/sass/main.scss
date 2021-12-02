@@ -1,0 +1,18 @@
+/*
+ * Главный файл стилей.
+ * Все паршалы подключаются сюда.
+ */
+
+// Стили для файла с примером HTML-фрагмента
+@import './layout/header.scss';
+@import './layout/navigation.scss';
+@import './layout/hero-section.scss';
+@import './layout/delivery-n-gallery';
+@import './components/container';
+@import './components/icon.scss';
+@import './components/common-text';
+@import './components/button.scss';
+@import './components/secondary-title';
+@import './layout/advertising-n-menu';
+
+@import './utiles/changes-default-properties.scss';

@@ -1,0 +1,22 @@
+.nav {
+  display: flex;
+  align-items: center;
+  margin-bottom: 134px;
+}
+.nav-contacts {
+  display: flex;
+  margin-left: auto;
+
+  &__item:not(:first-child) {
+    margin-left: 15px;
+  }
+}
+
+.nav-button__mobile {
+  margin-left: 30px;
+  // height: 30px;
+  // width: 30px;
+
+  background-color: transparent;
+  border: none;
+}

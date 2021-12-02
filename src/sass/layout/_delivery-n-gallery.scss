@@ -1,0 +1,21 @@
+.delivery-n-gallery {
+  margin-top: -24px;
+  padding-top: 84px;
+  padding-bottom: 60px;
+
+  background-image: url(/images/background-images/white-talcume-powder-explosion-black-bottom@1x.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+// .delivery-list {
+//   justify-content: center;
+// }
+.delivery-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.delivery-pic {
+  margin: 0px auto 30px;
+}
