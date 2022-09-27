@@ -7,15 +7,44 @@
   background-position: center;
   background-repeat: no-repeat;
 }
-// .delivery-list {
-//   justify-content: center;
-// }
+.delivery-list {
+  margin-bottom: 60px;
+}
 .delivery-item {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-bottom: 30px;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: center;
+  &:not(:last-child) {
+    margin-bottom: 30px;
+  }
 }
 .delivery-pic {
   margin: 0px auto 30px;
 }
+.delivery-image {
+  margin-bottom: 60px;
+}
+
+//---------- Gallery ----------------
+// --------------------------------------
+.gallery-list {
+  display: flex;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.gallery-list__dot {
+  display: flex;
+  justify-content: center;
+}
+.gallery-item__dot {
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+// .gallery-dot {
+//   width: 10px;
+//   height: 10px;
+//   background-color: #c4c4c4;
+//   border-radius: 50px;
+// }
